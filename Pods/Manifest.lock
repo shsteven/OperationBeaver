@@ -1,0 +1,15 @@
+PODS:
+  - Operations (2.4.1):
+    - Operations/Standard (= 2.4.1)
+  - Operations/Standard (2.4.1)
+  - SwiftyBeaver (0.3.0)
+
+DEPENDENCIES:
+  - Operations
+  - SwiftyBeaver
+
+SPEC CHECKSUMS:
+  Operations: 728e069c0c736c321ba1e0ead42dbf2006366773
+  SwiftyBeaver: df7961d4ecb75521ed6a9af40dd3076af1635fdd
+
+COCOAPODS: 0.39.0

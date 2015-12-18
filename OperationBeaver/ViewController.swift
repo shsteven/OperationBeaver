@@ -7,19 +7,26 @@
 //
 
 import UIKit
+import Operations
+import SwiftyBeaver
 
-class ViewController: UIViewController {
+let log = SwiftyBeaver.self
+//
+//class Sample {
+//    init() {
+//        log.debug("abc")
+//        
+//    }
+//}
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+//let log = SwiftyBeaver.self
+
+class SampleOperation: Operation {
+    override func execute() {
+        log.info("This is an info message")
+        log.debug("This doesn't work")
+        SwiftyBeaver.debug("This works")
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
+
 
